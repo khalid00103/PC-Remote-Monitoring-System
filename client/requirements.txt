@@ -1,0 +1,6 @@
+python-socketio
+pyscreenshot
+requests
+Pillow
+flask-socketio
+mss
