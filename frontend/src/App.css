@@ -1,0 +1,35 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.screenshots-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content:flex-start;
+}
+
+.screenshot-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  width: 320px;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+}
+
+.screenshot-item img {
+  width: 300px;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}

@@ -1,0 +1,20 @@
+# Set default behavior to automatically normalize line endings.
+* text=auto
+
+# Force Unix-style LF line endings for specific files (e.g., shell scripts, code files).
+*.sh text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+
+# Force Windows-style CRLF line endings for text files where required.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary files (e.g., images, executables) should not be modified.
+*.png binary
+*.jpg binary
+*.exe binary
+
+# Virtual environment folders should be ignored
+client/pc-monitoring-env/ binary
